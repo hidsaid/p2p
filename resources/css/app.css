@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Noto Kufi Arabic", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.mainNav li a.active,
+.mainNav li a:hover {
+    color: #1CB9B1;
+    color: #F4B441;
+}
+
+.navMobile li a.active,
+.navMobile LI A:hover {
+    color: #1CB9B1;
+    color: #F4B441;
+}
+
+#sliderPeople::-webkit-scrollbar {
+    display: none;
+}
+
+.openMegaMenu >a {
+    /* display: block;
+    width: fit-content; */
+}
+
+.openMegaMenu:hover > div.megaMenu {
+    display: block;
+}
